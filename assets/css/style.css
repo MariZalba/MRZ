@@ -412,7 +412,7 @@
   text-transform: capitalize;
   font-weight: 600;
   color: #fff;
-  background-color: #500ade;
+  background-color: #FF6699;
   padding: 0 30px;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -422,7 +422,7 @@
   border: 2px solid transparent; }
   .boxed-btn-02:hover {
     background-color: #fff;
-    color: var(--main-color-one); }
+    color: #FF6699; }
   .boxed-btn-02.black:hover {
     background-color: var(--secondary-color);
     color: #fff; }
@@ -466,7 +466,7 @@
   .section-title .subtitle {
     font-size: 20px;
     line-height: 30px;
-    color: #500ade;
+    color: #FF6699;
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
@@ -478,6 +478,7 @@
     max-width: 720px;
     line-height: 26px;
     margin: 0 auto; }
+    
 
 .margin-bottom-45 {
   margin-bottom: 45px; }

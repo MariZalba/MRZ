@@ -488,9 +488,9 @@
   text-align: center;
   margin-bottom: 57px; }
   .section-title.white .subtitle, .section-title.white .title {
-    color: #fff; }
+    color: #1E1139; }
   .section-title.white p {
-    color: #fff; }
+    color: #1E1139; }
   .section-title.extra {
     margin-bottom: 55px; }
     .section-title.extra .title {
@@ -1625,9 +1625,9 @@ ul {
     -ms-flex-pack: center;
     justify-content: center; }
     .header-area.style-five .header-inner .title {
-      color: #fff; }
+      color: #1E1139; }
     .header-area.style-five .header-inner p {
-      color: rgba(255, 255, 255, 0.8); }
+      color: #1E1139; }
   .header-area.style-four .header-inner .title {
     color: #fff; }
   .header-area.style-four .header-inner p {
@@ -1670,8 +1670,8 @@ ul {
   .header-area.style-three .header-inner p {
     color: rgba(255, 255, 255, 0.8); }
   .header-area.style-09 {
-    padding-top: 100px;
-    padding-bottom: 50px; }
+    padding-top: 200px;
+    padding-bottom: 250px; }
     .header-area.style-09 .header-inner {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1856,11 +1856,11 @@ ul {
   font-weight: 600;
   border-radius: 3px;
   background-image: -moz-linear-gradient(0deg, #5e2ced 0%, #9749f8 100%);
-  background-image: -webkit-linear-gradient(0deg, #5e2ced 0%, #9749f8 100%);
+  background-image: -webkit-linear-gradient(0deg, #FF8DB9 0%, #FF6699 100%);
   background-image: -ms-linear-gradient(0deg, #5e2ced 0%, #9749f8 100%); }
   .get-quote-form .submit-btn:hover {
-    -webkit-box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3);
-    box-shadow: 0px 3px 20px 0px rgba(13, 21, 75, 0.3); }
+    -webkit-box-shadow: 0px 3px 20px 0px #FF6699;
+    box-shadow: 0px 3px 20px 0px #FF6699; }
 
 @-webkit-keyframes upndown {
   0% {
@@ -2677,7 +2677,7 @@ ul {
     font-weight: 500; }
 
 .counterup-area {
-  padding: 120px 0 120px 0; }
+  padding: 0px 0 20px 0; }
 
 .single-counter-item {
   display: -webkit-box;
@@ -2851,7 +2851,7 @@ ul {
           height: 40px;
           border-radius: 50%;
           background-image: -moz-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
-          background-image: -webkit-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
+          background-image: -webkit-linear-gradient(50deg, #9292FF 0%, #6969FF 100%);
           background-image: -ms-linear-gradient(50deg, #e877cb 0%, #a197fa 100%);
           text-align: center;
           line-height: 40px;
@@ -2866,7 +2866,7 @@ ul {
         .how-it-work-tab-nav .nav-tabs .nav-item .nav-link.active {
           color: #fff;
           background-image: -moz-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
-          background-image: -webkit-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%);
+          background-image: -webkit-linear-gradient(50deg, #7878FF 0%, #6969FF 100%);
           background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%); }
           .how-it-work-tab-nav .nav-tabs .nav-item .nav-link.active i {
             color: #fff; }
@@ -3183,11 +3183,11 @@ ul {
   .single-price-plan-01:hover {
     background-color: #fff; }
     .single-price-plan-01:hover .price-header .name {
-      color: #1c144e; }
+      color: #6969ff; }
     .single-price-plan-01:hover .price-header .price-wrap .price {
       color: #1c144e; }
     .single-price-plan-01:hover .price-header .price-wrap .month {
-      color: #666666; }
+      color: #1e1139; }
     .single-price-plan-01:hover .price-body ul li {
       color: #666666; }
 
@@ -3197,7 +3197,7 @@ ul {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #fff;
+    color: #1e1139;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -3207,13 +3207,13 @@ ul {
     .single-price-plan-01 .price-header .price-wrap .price {
       font-size: 48px;
       line-height: 58px;
-      color: #fff;
+      color: #1e1139;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
     .single-price-plan-01 .price-header .price-wrap .month {
-      color: rgba(255, 255, 255, 0.8);
+      color: #1e1139;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -3225,7 +3225,7 @@ ul {
     .single-price-plan-01 .price-body ul li {
       display: block;
       margin: 15px 0;
-      color: rgba(255, 255, 255, 0.8);
+      color: #1e1139;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -3345,6 +3345,48 @@ ul {
     .single-price-plan-02 .price-footer .boxed-btn {
       border-radius: 5px;
       width: 180px; }
+
+      .colorcito01 {
+        background-color: #b7c2e1 !important;
+      }
+      .colorcito01:hover {
+        background-color: #fff !important;
+      }
+
+      .colorcito02 {
+        background-color: #efd6d0 !important;
+      }
+      .colorcito02:hover {
+        background-color: #fff !important;
+      }
+
+      .colorcito03 {
+        background-color: #f3dfba !important;
+      }
+      .colorcito03:hover {
+        background-color: #fff !important;
+      }
+
+
+      }.nombre01:hover{
+        color: #6969ff !important;
+      }
+
+      .nombre02:hover {
+        color: #FF6699 !important;
+      }
+
+      .nombre03 {
+        color: #1E1139 !important;
+      }
+
+      .nombre03:hover{
+        color: #F7BC5C !important;
+      }
+
+
+
+
 
 /*-----------------------
     Team Member Area
@@ -3633,7 +3675,8 @@ ul {
     height: 100%;
     content: '';
     z-index: -1;
-    background-image: url("../img/bg/pricing_plan.jpg");
+    background-image: url("../img/bg/arribafooter.jpg");
+    background-repeat: no-repeat;
     /*background-image: -webkit-linear-gradient(176deg, #EFCD89 0%, #F7BC5C 100%);
     background-image: -ms-linear-gradient(176deg, #EFCD89 0%, #F7BC5C 100%);*/
     opacity: .8;

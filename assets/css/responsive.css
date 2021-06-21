@@ -495,7 +495,7 @@
         display: none;
     }
     .header-area {
-        border-bottom: 1px solid #e2e2e2;
+        /*border-bottom: 1px solid #e2e2e2;*/
     }
     .header-area .header-inner .title {
         font-size: 50px;
@@ -523,7 +523,7 @@
         border: none;
     }
     .feature-list .single-feature-list {
-        border: 2px solid #ededed;
+        /*border: 2px solid #ededed;*/
         margin-bottom: 30px;
     }
     .feature-list .single-feature-list:last-child{

@@ -402,6 +402,12 @@
       background-color: #500ade;
       color: #fff; }
 
+
+.sabana1 {
+    background-image: url(../img/bg/sabanaresponsive.png);
+}
+
+
 .boxed-btn-02 {
   display: inline-block;
   text-align: center;
@@ -509,7 +515,7 @@
   .section-title .subtitle {
     font-size: 20px;
     line-height: 30px;
-    color: #A8B6E2;
+    color: #91A3BF;
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
@@ -1407,7 +1413,7 @@ ul {
     Header Area
 ------------------------------*/
 .header-area {
-  padding: 352px 0 252px 0;
+  padding: 252px 0 252px 0;
   background-color: #fff;
   position: relative; }
   .header-area .shape-1 {
@@ -3574,7 +3580,7 @@ ul {
   .contact-area-wrapper .subtitle {
     font-size: 20px;
     line-height: 30px;
-    color: #a8b6dd;
+    color: #91A3BF;
     text-transform: uppercase;
     font-weight: 600;
     font-family: "Poppins", sans-serif;

@@ -322,6 +322,11 @@
 .padding-60 {
   padding: 60px 0 60px 0; }
 
+
+.tarjetacredito {
+  padding-top: 20px;
+}
+
 .submit-btn-02 {
   display: inline-block;
   text-align: center;
@@ -558,6 +563,18 @@
     line-height: 26px;
     margin: 0 auto; }
 
+
+
+.listadetalle {
+  color: #1E1139;
+  font-size: 16px;
+}
+
+.listadetalle li {
+  color: #1E1139;
+  font-size: 13px;
+  font-weight: 500;
+}
     
 
 .margin-bottom-45 {
@@ -1070,7 +1087,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   margin: 0;
-  color: #666666;
+  color: #1c144e;
   overflow-x: hidden; }
 
 h1 {
@@ -1087,6 +1104,10 @@ h3 {
 
 h4 {
   font-size: 22px;
+  line-height: 1.2380952380952381; }
+
+h5 {
+  font-size: 18px;
   line-height: 1.2380952380952381; }
 
 h1,
@@ -1835,15 +1856,28 @@ ul {
     max-width: 520px; }
 
 .header-form-area .header-form-inner {
-  background-color: #fff;
+  background-color: #d3d9ef;
   padding: 40px 30px 50px 40px;
-  border-radius: 5px;
-  border: 1px solid #e2e2e2; }
+  border-radius: 20px;
+  /*border: 1px solid #e2e2e2;*/ }
   .header-form-area .header-form-inner .title {
     font-size: 30px;
     line-height: 40px;
     color: #1c144e;
     margin-bottom: 25px; }
+
+
+    .header-area01 {
+  padding: 0px 0 152px 0;
+  background-color: #fff;
+  position: relative; }
+  .header-area .shape-1 {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    -webkit-animation: left2right 10s linear 0s infinite;
+    animation: left2right 10s linear 0s infinite;
+    opacity: .1; }
 
 .get-quote-form .form-group.textarea .form-control {
   min-height: 140px;
@@ -2376,8 +2410,8 @@ ul {
     font-size: 40px;
     display: inline-block;
     margin: 0 auto;
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     line-height: 100px;
     color: #fff;
     margin-bottom: 15px;
@@ -2409,7 +2443,7 @@ ul {
       -o-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
       .single-feature-list .content .title a:hover {
-        color: #500ade; }
+        color: #91A3BF; }
 
 .feature-list-04 .single-feature-list-item-04 {
   padding: 30px 30px;
@@ -3172,6 +3206,16 @@ ul {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1; }
 
+    .fondotestimonial{
+      background-color: #f8d7d1 !important;
+    }
+
+    .fondotestimonial1{
+      background-color: #f9d7a5 !important;
+    }
+
+ 
+
 /*--------------------------
     Pricing Plan Area
 ---------------------------*/
@@ -3207,7 +3251,7 @@ ul {
     .single-price-plan-01:hover .price-header .price-wrap .month {
       color: #1e1139; }
     .single-price-plan-01:hover .price-body ul li {
-      color: #666666; }
+      color: #000000; }
 
   .single-price-plan-01 .price-header .name {
     font-size: 18px;
@@ -3221,10 +3265,10 @@ ul {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
   .single-price-plan-01 .price-header .price-wrap {
-    margin-bottom: 36px; }
+    margin-bottom: 0px; }
     .single-price-plan-01 .price-header .price-wrap .price {
-      font-size: 28px;
-      line-height: 58px;
+      font-size: 26px;
+      line-height: 65px;
       color: #1e1139;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
@@ -3251,11 +3295,15 @@ ul {
       .single-price-plan-01 .price-body ul li:first-child {
         margin-top: 0; }
       .single-price-plan-01 .price-body ul li:last-child {
-        margin-bottom: 0; }
+        margin-bottom: 20px; }
   .single-price-plan-01 .price-footer {
-    margin-top: 48px;
+    margin-top: 27px;
     display: block; }
 
+
+     .single-price-plan-01:hover .price-header .name1 {
+      color: #91A3BF !important;
+       }
 
     .single-price-plan-01:hover .price-header .name02 {
       color: #F79A9A !important;
@@ -3264,6 +3312,9 @@ ul {
        .single-price-plan-01:hover .price-header .name03 {
       color: #f7a254 !important;
        }
+
+       .price-body1 {
+        margin-bottom: 0px !important; }
 
 
 
@@ -3461,7 +3512,7 @@ ul {
     -webkit-box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);
     box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);
     border-radius: 50%;
-    border: 8px solid #fff;
+    border: 2px solid #fff;
     position: relative;
     z-index: 0;
     margin-bottom: 27px; }
@@ -3608,6 +3659,18 @@ ul {
     display: block;
     margin-bottom: 10px; }
 
+    .subtitle5 {
+    font-size: 28px;
+    line-height: 30px;
+    color: #1e1139;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 10px; }
+
+
+
 
 
 .contact-form.sec-margin {
@@ -3749,7 +3812,7 @@ ul {
   background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%); }
   .footer-area.style-02 {
     background-image: unset;
-    padding-top: 220px; }
+    padding-top: 0px; }
 
 .footer-top {
   padding: 100px 0 95px 0; }

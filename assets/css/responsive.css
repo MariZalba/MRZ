@@ -778,6 +778,10 @@
     background-image: url(../img/bg/headerresponsive-bg-9.jpg);
 }
 
+.sabana1{
+    background-image: url(../img/bg/sabanaresponsive.png);
+}
+
 .header-area.style-09 {
     padding-top: 330px;
     padding-bottom: 130px; }
@@ -833,8 +837,8 @@
         font-weight: 600;
     }
     .single-price-plan-01 .price-header .price-wrap .price {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 40px;
     }
     .copyright-inner .left-content-area {
         display: block;
@@ -962,8 +966,13 @@
 
 
 @media only screen and (max-width: 414px) {
+
     .header-area {
         padding: 260px 0 155px 0;
+    }
+
+    .header-area02 {
+        padding: 0px 0px 0px 0px;
     }
 
 .header-area.header-bg-9 {
@@ -1098,7 +1107,7 @@
     }
     .single-testimonial-item-02 .content-area p {
         font-size: 18px;
-        line-height: 40px;
+        line-height: 30px;
     }
     .single-testimonial-item-02 .content-area .author-meta .title {
         font-size: 24px;

@@ -216,8 +216,8 @@
   bottom: 30px;
   width: 50px;
   height: 50px;
-  background-color: #1c144e;
-  color: #fff;
+  background-color: #ffb564;
+  color: #1E1139;
   text-align: center;
   line-height: 50px;
   border-radius: 50%;
@@ -226,6 +226,10 @@
   font-size: 30px;
   -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1); }
+
+  .back-to-top:hover{
+    background-color: #ffc57c;
+  }
 
 .gray-bg {
   background-color: #f7f7f7; }
@@ -327,6 +331,17 @@
   padding-top: 20px;
 }
 
+/*.hero-section {
+  background-image: url(../img/bg/header-bg-9.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 1000px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}*/
+
+
 .submit-btn-02 {
   display: inline-block;
   text-align: center;
@@ -409,7 +424,15 @@
 
 
 .sabana1 {
-    background-image: url(../img/bg/sabanaresponsive.png);
+  padding-top: 40px;
+  background-position: top;
+    background-image:url(../img/bg/sabana.png);
+    background-repeat: no-repeat;
+}
+
+.sabana2 {
+  padding-top: 110px;
+  background-image: url(../img/bg/sabana2.png);
 }
 
 
@@ -421,8 +444,8 @@
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
-  color: #fff;
-  background-color: #1E1139;
+  color: #1E1139;
+  background-color: #ffb564;
   padding: 0 30px;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
@@ -442,8 +465,8 @@
     background-color: #A8B6E2
     color: #fff; }
     .boxed-btn-02.reverse-color:hover {
-      color: #fff;
-      background-color: #a8b6dd; }
+      color: #1E1139;
+      background-color: #ffc57c; }
   .boxed-btn-02.blank {
     background-color: transparent;
     color: #fff;
@@ -575,6 +598,29 @@
   font-size: 13px;
   font-weight: 500;
 }
+
+.listadetalle1 {
+  color: #1E1139;
+  font-size: 16px;
+padding-top: 10px 
+}
+
+
+.price-detalle {
+  font-size: 30px;
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+
+.listadetalle li:before {
+  margin-right: 5px;
+  content: url(../img/pagde.png);
+  }
+
+  .single-price-plan-01:hover img {
+    transition: .6s;
+    transform: scale(1.05);
+  }
     
 
 .margin-bottom-45 {
@@ -1204,11 +1250,13 @@ ul {
 .navbar-area {
   padding: 0; }
   .navbar-area.nav-absolute {
-    position: absolute;
+    background-color: #f7f7f7;
+    position: fixed;
     left: 0;
+    height: 9%;
     width: 100%;
     top: 0px;
-    z-index: 1; }
+    z-index: 10000; }
   .navbar-area.header-style-09 .nav-container .nav-right-content ul li .boxed-btn {
     border-radius: 5px;
     background-color: #fff;
@@ -1503,10 +1551,16 @@ ul {
   .header-area.header-bg-9 {
     background-color: #fff;
     background-image: url(../img/bg/header-bg-9.jpg);
-    background-position: right;
+    background-position: center;
     background-size: cover;
     position: relative;
     z-index: 0; }
+    /*.header-bg-9 {
+    background-image: url(../img/bg/header-bg-9.jpg);}
+    /*background-position: right;
+    background-size: cover;
+    position: relative;
+    z-index: 0; }*/
     .header-area.header-bg-9:after {
       position: right;
       left: 0;
@@ -1514,11 +1568,11 @@ ul {
       width: 100%;
       height: 100%;
       content: '';
-      z-index: -1;
+      z-index: -1;}
       /*background-image: -moz-linear-gradient(146deg, #0250c5 0%, #ca3c87 60%, #d43f8d 100%);
       background-image: -webkit-linear-gradient(146deg, #0250c5 0%, #ca3c87 60%, #d43f8d 100%);
       background-image: -ms-linear-gradient(146deg, #0250c5 0%, #ca3c87 60%, #d43f8d 100%);
-      opacity: .9;*/ }
+      opacity: .9;*/ 
   .header-area.header-bg-10 {
     background-color: #fff;
     background-image: url(../img/bg/header-bg-10.jpg);
@@ -1724,8 +1778,8 @@ ul {
         fill: ##1E1139; }
     .header-area.style-09 .header-inner .title {
       color: #1E1139;
-      font-size: 66px;
-      line-height: 68px; }
+      font-size: 70px;
+      line-height: 70px; }
     .header-area.style-09 .header-inner p {
       color: #1E1139;
       font-size: 18px;
@@ -1856,7 +1910,7 @@ ul {
     max-width: 520px; }
 
 .header-form-area .header-form-inner {
-  background-color: #d3d9ef;
+  background-color: #ffead4;
   padding: 40px 30px 50px 40px;
   border-radius: 20px;
   /*border: 1px solid #e2e2e2;*/ }
@@ -2209,7 +2263,8 @@ ul {
     opacity: 0.3; } }
 
 .btn-wrapper {
-  margin-top: 35px; }
+  margin-top: 40px; 
+  margin-bottom:10px}
   .btn-wrapper .boxed-btn {
     margin: 0 10px;
     border: none;
@@ -2566,6 +2621,7 @@ ul {
 
 
 .about-app-area {
+  background-position: center;
   background-repeat: no-repeat; }
   .about-app-area .img-wrapper {
     position: relative;
@@ -3162,9 +3218,9 @@ ul {
     overflow: hidden; }
     .single-testimonial-item-02 .content-area:after {
       position: absolute;
-      right: 30px;
-      bottom: -10px;
-      font-size: 80px;
+      right: 10px;
+      bottom: -20px;
+      font-size: 70px;
       line-height: 80px;
       content: "\f10d";
       font-family: 'Font Awesome 5 Free';
@@ -3220,8 +3276,9 @@ ul {
     Pricing Plan Area
 ---------------------------*/
 .pricing-plan-area {
-  padding: 112px 0 120px 0; }
+  padding: 112px 0 135px 0; }
   .pricing-plan-area.pricing-plan-bg {
+    padding-bottom: 190px;
     background-image: url(../img/bg/pricing_plan.jpg);
     background-position: center;
     background-size: cover; }
@@ -3251,7 +3308,7 @@ ul {
     .single-price-plan-01:hover .price-header .price-wrap .month {
       color: #1e1139; }
     .single-price-plan-01:hover .price-body ul li {
-      color: #000000; }
+      color: #1e1139; }
 
   .single-price-plan-01 .price-header .name {
     font-size: 18px;
@@ -3508,11 +3565,11 @@ ul {
     transform: scale(1); }
   .single-team-member .thumb {
     display: inline-block;
-    background-color: white;
-    -webkit-box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);
-    box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);
+    background-color: #f7f7f7;
+    /*-webkit-box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);
+    box-shadow: 0px 34px 95px 0px rgba(22, 12, 43, 0.18);*/
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #f7f7f7;
     position: relative;
     z-index: 0;
     margin-bottom: 27px; }

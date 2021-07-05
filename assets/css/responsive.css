@@ -81,7 +81,7 @@
     .header-area.style-10 .header-inner .title ,
     .header-area.style-09 .header-inner .title{
         color: #1E1139;
-        font-size: 55px;
+        font-size: 70px;
         line-height: 68px;
     }
     .section-title .title,
@@ -107,6 +107,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .header-area.header-bg-9 {
+    background-position: right;
     background-image: url(../img/bg/headerresponsive-bg-9.jpg);
 }
 
@@ -137,7 +138,7 @@
         color: #fff;
     }
     .navbar-area {
-        padding: 20px;
+        padding: 0px;
     }
     .navbar-area .navbar-collapse .navbar-nav .nav-item .dropdown-menu.show,
     .navbar-area .navbar-collapse .navbar-nav .nav-item:hover .dropdown-menu {
@@ -302,9 +303,10 @@
     .header-area.style-10 .header-inner .title ,
     .header-area.style-09 .header-inner .title{
         color: #1E1139;
-        font-size: 55px;
-        line-height: 68px;
+        font-size: 60px;
+        line-height: 60px;
         text-align: center;
+        padding-top: 100px;
     }
     .header-area.style-09 .header-inner .btn-wrapper,
     .header-area.style-10 .header-inner .btn-wrapper ,
@@ -358,6 +360,7 @@
         display: block;
         width: 100%;
         position:relative;
+        padding-bottom: 10px;
     }
     
     .responsive-mobile-menu .navbar-toggler {
@@ -419,11 +422,24 @@
 @media only screen and (max-width: 767px) {
 
     .header-area.header-bg-9 {
+    background-position: right;
     background-image: url(../img/bg/headerresponsive-bg-9.jpg);
 }
 
 .sabana1{
     background-image: url(../img/bg/sabanaresponsive.png);
+}
+
+.cajapaginadetalle {
+    padding-bottom: 20px;
+}
+
+.pricing-plan-area.pricing-plan-bg {
+    padding-bottom: 70px;
+}
+
+.navbar-area.nav-absolute {
+    height: 8%;
 }
 
 .header-area.style-09 {
@@ -434,7 +450,8 @@
         background-color: #fff;
     }
     .navbar-area {
-        padding: 20px;
+        height: 5%;
+        padding: 0px;
     }
     .navbar-area .navbar-collapse {
         position: absolute;
@@ -647,6 +664,7 @@
      {
         display: block;
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .navbar-area .responsive-mobile-menu .logo-wrapper,
@@ -661,7 +679,7 @@
     .navbar-area.header-style-09 .responsive-mobile-menu .navbar-toggler
      {
         float: right;
-        margin-top: 12px;
+        margin-top: 8px;
     }
     .header-area.style-11 .header-inner .btn-wrapper ,
     .header-area.style-10 .header-inner .btn-wrapper ,
@@ -678,8 +696,9 @@
     .header-area.style-10 .header-inner .title ,
     .header-area.style-09 .header-inner .title {
         text-align: center;
-        font-size: 50px;
-        line-height: 60px;
+        font-size: 60px;
+        line-height: 63px;
+        padding-top: 100px;
     }
     .header-area.style-11 .right-img ,
     .header-area.style-10 .right-img ,
@@ -775,12 +794,16 @@
     }
 
     .header-area.header-bg-9 {
+        background-position: right;
     background-image: url(../img/bg/headerresponsive-bg-9.jpg);
 }
 
-.sabana1{
-    background-image: url(../img/bg/sabanaresponsive.png);
+.listadepago {
+    content: url(../img/2.png);
 }
+
+
+
 
 .header-area.style-09 {
     padding-top: 330px;
@@ -944,13 +967,14 @@
     .header-area.style-10 .header-inner .title, 
     .header-area.style-09 .header-inner .title {
         text-align: center;
-        font-size: 42px;
-        line-height: 52px;
+        font-size: 53px;
+        line-height: 54px;
     }
     .header-area.style-11 .header-inner p, 
     .header-area.style-10 .header-inner p, 
     .header-area.style-09 .header-inner p {
-       font-size: 15px;
+       font-size: 16px;
+       line-height: 26px;
     }
     .full-width-feature-area-04 .right-content-area .title ,
     .connect-area .right-content-area .title{
@@ -976,8 +1000,11 @@
     }
 
 .header-area.header-bg-9 {
+    background-position: right;
     background-image: url(../img/bg/headerresponsive-bg-9.jpg);
 }
+
+
 
 
     .header-area .header-inner .title {
@@ -1092,8 +1119,8 @@
     .header-area.style-10 .header-inner .title,
      .header-area.style-09 .header-inner .title {
         text-align: center;
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 54px;
+        line-height: 56px;
     }
     .boxed-btn-02 {
         padding: 0 20px;
@@ -1225,8 +1252,8 @@
     .header-area.style-10 .header-inner .title,
      .header-area.style-09 .header-inner .title {
         text-align: center;
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 53px;
     }
     .full-width-feature-area-04 .right-content-area .title, 
     .connect-area .right-content-area .title {
@@ -1312,8 +1339,8 @@
     .header-area.style-10 .header-inner .title, 
     .header-area.style-09 .header-inner .title {
         text-align: center;
-        font-size: 40px;
-        line-height: 50px;
+        font-size: 45px;
+        line-height: 48px;
     }
     .call-to-action-inner-style-02 {
         padding: 60px 25px;
